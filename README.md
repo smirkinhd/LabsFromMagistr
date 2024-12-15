@@ -1,4 +1,16 @@
-# labs-with-framework
+# Лабораторные работы с использованием фреймворка VueJS
+
+### Лабораторная работа 1
+Инженерный калькулятор на JavaScript
+
+### Лабораторная работа 2
+Слайдер на Javascript
+
+### Лабораторная работа 3
+Построчный текстовый редактор
+
+### Лабораторная работа 4
+Функционал корзины интернет-магазина
 
 ## Project setup
 ```
@@ -19,6 +31,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
