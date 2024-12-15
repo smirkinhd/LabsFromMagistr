@@ -4,7 +4,6 @@ function showSlide(index) {
     const slides = document.querySelector('.slides');
     const totalSlides = slides.children.length;
 
-    // Обновляем индекс и позицию слайдера
     if (index >= totalSlides) {
         currentIndex = 0;
     } else if (index < 0) {
@@ -24,4 +23,4 @@ function prevSlide() {
     showSlide(currentIndex - 1);
 }
 
-setInterval(nextSlide, 1000);
+setInterval(nextSlide, 3000);
