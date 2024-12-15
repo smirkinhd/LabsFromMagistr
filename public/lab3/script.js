@@ -19,8 +19,11 @@ previewBtn.addEventListener('click', () => {
     previewArea.innerHTML = '<h3>Предпросмотр текста:</h3>';
 
     if (inputText) {
-        const lineElement = document.createElement('div');
-        lineElement.textContent = inputText;
-        previewArea.appendChild(lineElement);
+        const lines = inputText.split('\n');
+        lines.forEach(line => {
+            const lineElement = document.createElement('div');
+            lineElement.textContent = line;
+            previewArea.appendChild(lineElement);
+        });
     }
 });
